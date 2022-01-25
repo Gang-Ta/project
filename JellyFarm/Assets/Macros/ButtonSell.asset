@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ButtonSell
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":12.22223,"y":-24.44444},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"Enter","$type":"System.String"}},"position":{"x":-233.0,"y":-197.0},"guid":"87856462-39cc-4a5d-9244-325642450ace","$version":"A","$type":"Bolt.BoltUnityEvent","$id":"9"},{"coroutine":false,"defaultValues":{"name":{"$content":"Exit","$type":"System.String"}},"position":{"x":-237.0,"y":-10.0},"guid":"bc49139b-9ef5-4aa6-80da-b00c25cd738a","$version":"A","$type":"Bolt.BoltUnityEvent","$id":"11"},{"kind":"Scene","defaultValues":{"name":{"$content":"IsSell","$type":"System.String"}},"position":{"x":14.0,"y":-189.0},"guid":"d108c647-93a2-44fa-8a66-f92516509f86","$version":"A","$type":"Bolt.SetVariable","$id":"13"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-198.0,"y":-111.0},"guid":"6675ad2b-18dc-4aa8-ab2b-e1ffa8c02db1","$version":"A","$type":"Bolt.Literal","$id":"15"},{"kind":"Scene","defaultValues":{"name":{"$content":"IsSell","$type":"System.String"}},"position":{"x":16.0,"y":8.0},"guid":"a2598b5c-a912-41a4-9ad8-1f83570256d4","$version":"A","$type":"Bolt.SetVariable","$id":"17"},{"type":"System.Boolean","value":{"$content":false,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":-198.0,"y":75.0},"guid":"f3c5c7aa-1f79-4932-980b-523d2f0d9031","$version":"A","$type":"Bolt.Literal","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"afb50fad-42d4-4d9c-98ca-738bae2b3d42","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"93b7820c-62cd-4fd7-97fd-0fbb474fe58e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"4c67732a-0c0a-4aed-a7fe-990368ee8822","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"bf34cba4-e6f7-49ad-8adc-7ca606d39e8e","$type":"Bolt.ValueConnection"},{"position":{"xMin":-265.0,"yMin":-227.0,"xMax":186.0,"yMax":182.0},"label":"Sell
+      State","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"96a60601-1881-42cb-908c-b98d226ed111","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
